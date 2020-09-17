@@ -1,0 +1,13 @@
+<h1> Check Me Out! </h1>
+
+<%# <% @employee.each do |e|%> 
+<ul>
+    <p> My Attributes </p>
+    <li><%= @employee.first_name%></li>
+    <li><%= @employee.last_name%></li>
+    <li><%= @employee.alias%></li>
+    <li><%= @employee.office%></li>
+    <li><%= @employee.img_url%></li>
+</ul>
+
+<%= render: @employee.img_url%>
